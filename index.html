@@ -11,18 +11,28 @@
       <div class="container">
         <section class="content">
           <picture class="content__img">
-            <source media="(min-width: 1140px)" srcset="img/ice.png">
+            <source media="(min-width: 1500px)" srcset="img/ice.png">
             <source media="(min-width: 768px)" srcset="img/ice-med.png"><img src="img/ice-min.png" width="280" height="240" alt="мороженое">
           </picture>
           <div class="content__info"><a class="content__title" href="https://telegram.me/groupname">@BitokPro</a>
             <div class="content__text">
-              <p>>> моментальные обмены</p>
-              <p>>> без верификации </p>
-              <p>>> 4 года в игре</p>
+              <button type="button" id="button1">>> моментальные обмены</button>
+              <div class="content__open content__toggle" id="open1">
+                <p>какой-то текст</p>
+              </div>
+              <button type="button" id="button2">>> без верификации</button>
+              <div class="content__open content__toggle" id="open2">
+                <p>какой-то текст</p>
+              </div>
+              <button type="button" id="button3">>> 4 года в игре</button>
+              <div class="content__open content__toggle" id="open3">
+                <p>какой-то текст</p>
+              </div>
             </div>
           </div>
         </section>
       </div>
     </main>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
